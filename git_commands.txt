@@ -1,0 +1,26 @@
+create readme file:
+echo "# python_course" >> README.md
+
+init git directory:
+git init
+
+add file in stage changes
+git add README.md
+
+make to commit change 
+git commit -m "first commit"
+
+create branch:
+git branch -M main
+
+add repository origin:
+git remote add origin https://github.com/francysgiovanna/python_course.git
+
+upload change 
+git push -u origin main
+
+list branch:
+git branch 
+
+create branch:
+git checkout -b <NAME BRANCH>
